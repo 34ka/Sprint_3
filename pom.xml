@@ -35,12 +35,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>net.bytebuddy</groupId>
-            <artifactId>byte-buddy</artifactId>
-            <version>1.11.16</version>
-        </dependency>
-
         <!-- модуль взаимодействия Allure и Junit -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
