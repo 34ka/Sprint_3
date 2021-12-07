@@ -31,7 +31,7 @@ public class LoginCourierRequestValidationTests {
     @Parameterized.Parameters
     public static Object[][] getTestData() {
         return new Object[][] {
-                //{CourierCredentials.getWithLoginOnly(courier), 400, "Недостаточно данных для входа"},
+                {CourierCredentials.getWithLoginOnly(courier), 400, "Недостаточно данных для входа"},
                 {CourierCredentials.getWithPasswordOnly(courier), 400, "Недостаточно данных для входа"},
                 {CourierCredentials.getWithDoNotReallyLoginAndPassword(courier) , 404, "Учетная запись не найдена"}
         };
